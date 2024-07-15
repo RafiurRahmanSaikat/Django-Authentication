@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% load crispy_forms_tags %}
 {% block content %}
+  {{ block.super }}
   <div style="width: 50rem; margin: auto">
     <h1>Edit Profile of : {{ user.username }}</h1>
 

@@ -37,9 +37,9 @@
       {% if messages %}
         {% for m in messages %}
           {% if m.tags == 'error' %}
-            <p class="fw-1 fs- bg-danger rounded-pill text-center">{{ m }}</p>
+            <p style="width: 50vw; margin: auto;" class="fw-1 fs- bg-danger rounded-pill text-center">{{ m }}</p>
           {% else %}
-            <p class="fw-1 fs-4 bg-success rounded-pill text-center">{{ m }}</p>
+            <p style="width: 50vw; margin: auto;" class="fw-1 fs-4 bg-success rounded-pill text-center">{{ m }}</p>
           {% endif %}
         {% endfor %}
       {% endif %}

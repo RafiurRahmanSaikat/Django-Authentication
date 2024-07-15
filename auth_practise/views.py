@@ -65,7 +65,7 @@ def user_login(request):
 def user_logout(request):
     logout(request)
     messages.error(request, "Logged Out Successfully")
-    return redirect("login")
+    return redirect("home")
 
 
 def change_password(request):
